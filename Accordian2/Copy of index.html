@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>Re usable directives</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	</head>
+
+	<body>
+		<div id="container">
+			<div ng-app="bgApp" ng-controller="myCtrl">
+				<accordion  closeallatonce="true">
+					<accordion-group heading="sagar1" content="kasjdgjaskdbv"></accordion-group>
+
+				</accordion>
+				<accordion>
+					<div class="panel-group">
+						<div class="panel">
+							<div class="panel-title">
+								<h3><a><span>sagar1</span></a></h3>
+							</div>
+							<div class="panel-body">
+								kasjdgjaskdbv
+							</div>
+						</div>
+					</div>
+				</accordion>
+
+				<div class="panel-group">
+					<div class="panel">
+
+						<div class="panel-title">
+							<h3><a><span>sagar</span></a></h3>
+						</div>
+						<div class="panel-body">
+							hjfhcvcfh
+						</div>
+					</div>
+				</div>
+				</accordion>
+				<bg-accordian type="bgCollapse"  bgPreopenHeader="tab2" bgPreopenItemNo="" class="accordion__container" ng-click="openTab($event)" >
+					<div class="accordion__tab" tab-title="tab1">
+						<div class="accordion__tab-title" >
+							Tab 1
+						</div>
+						<div class="accordion__tab-content">
+							Tab1 content goes here!
+						</div>
+					</div>
+					<!-- .accordion__tab -->
+					<div class="accordion__tab" tab-title="tab2">
+						<div class="accordion__tab-title " >
+							Tab 2
+						</div>
+						<div class="accordion__tab-content">
+							Tab2 content goes here!
+						</div>
+					</div>
+					<!-- .accordion__tab -->
+					<div class="accordion__tab">
+						<div class="accordion__tab-title" >
+							Tab 3
+						</div>
+						<div class="accordion__tab-content" >
+							Tab3 content goes here!
+						</div>
+					</div>
+					<!-- .accordion__tab -->
+				</bg-accordian >
+			</div>
+		</div>
+		<script src="js/bgAccordian.js"></script>
+	</body>
+</html>

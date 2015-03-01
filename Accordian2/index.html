@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>Re usable directives</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	</head>
+
+	<body>
+		<div id="container">
+			<div ng-app="bgApp" ng-controller="myCtrl">
+				<bg-accordion  type="accordian" open-heading="ganga" open-panel="2" >
+					<bg-accordion-group heading="sagar" content="kasjdgjaskdbv"></bg-accordion-group>
+					<bg-accordion-group heading="myName" content="kasjdgjaskdbv"></bg-accordion-group>
+					<bg-accordion-group heading="ganga" content="kasjdgjaskdbv"></bg-accordion-group>
+					<bg-accordion-group heading="rayan" content="kasjdgjaskdbv"></bg-accordion-group>
+					<bg-accordion-group heading="kart" content="kasjdgjaskdbv"></bg-accordion-group>
+				</bg-accordion>
+				<bg-accordion  type="accordian" open-heading='' open-panel='2'>
+					<bg-accordion-group bg-heading="myName" bg-content="kasjdgjaskdbv"></bg-accordion-group>
+					<bg-accordion-group bg-heading="myName" bg-content="kasjdgjaskdbv"></bg-accordion-group>
+				</bg-accordion>
+			</div>
+			<script src="js/bgAccordian.js"></script>
+	</body>
+</html>
