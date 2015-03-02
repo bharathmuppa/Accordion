@@ -1,0 +1,55 @@
+bg-accordion {
+	margin: 10px auto;
+	display: block;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.bg-panel-group {
+	width: 100%;
+	background-color: #f3f3f3;
+	color: #777;
+}
+.bg-panel-group > * {
+	margin: 0;
+	padding: 0;
+}
+.bg-panel-group .bg-panel h3 {
+	margin: 0;
+}
+.bg-panel-title {
+	background-color: #ccc;
+	margin: 0px;
+}
+.bg-panel-title a {
+	color: #fff;
+	line-height: 42px;
+	display: block;
+	font-size: 12pt;
+	width: 100%;
+	text-indent: 10px;
+}
+.bg-panel-title {
+	background-color: #389abe;
+	background-image: -moz-linear-gradient(top,  #389abe 0%, #2a7b99 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, left bottombottom, color-stop(0%,#389abe), color-stop(100%,#2a7b99)); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(top,  #389abe 0%,#2a7b99 100%); /* Chrome10+,Safari5.1+ */
+	background-image: -o-linear-gradient(top,  #389abe 0%,#2a7b99 100%); /* Opera 11.10+ */
+	background-image: -ms-linear-gradient(top,  #389abe 0%,#2a7b99 100%); /* IE10+ */
+	background-image: linear-gradient(to bottombottom,  #389abe 0%,#2a7b99 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#389abe', endColorstr='#2a7b99',GradientType=0 ); /* IE6-9 */
+}
+.bg-panel-title a {
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+	border-right: 1px solid rgba(0, 0, 0, .2);
+	border-left: 1px solid rgba(0, 0, 0, .2);
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	border-top: 1px solid rgba(250, 250, 250, .2);
+}
+.bg-panel-group .bg-panel-title .bg-panel-body {
+	padding: 0;
+	background: none;
+	border: none;
+	outline: none;
+}
