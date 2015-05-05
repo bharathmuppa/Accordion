@@ -1,0 +1,24 @@
+@media only screen and (min-width: 768px) {
+	.bg-panel {
+		width: auto;
+		min-width: 15%;
+		display: inline-block;
+		float: left;
+		white-space: nowrap;
+	}
+	.bg-panel-body {
+		border: 1px solid #389abe;
+		box-sizing: border-box;
+		display: block;
+		left: 1%;
+		margin-top: -1px;
+		padding: 0 5px;
+		position: absolute;
+		white-space: normal;
+		width: 98%;
+		word-break: break-all;
+	}
+	h3 {
+		margin: 0
+	}
+}
