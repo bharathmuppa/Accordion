@@ -1,5 +1,5 @@
 //angular module has been created so that it will be includede in any angular modules for its features
-var angVal = angular.module("advanceInputFeautures", []);
+var angVal = angular.module("advanceInputFeatures", []);
     
     /*factory for saving image encoded code on server side */
     angVal.factory("postImage", function ($http) {
