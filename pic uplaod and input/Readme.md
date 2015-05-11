@@ -1,4 +1,5 @@
 AdvanceInputFeatures:
+
 steps to use:
     1)Include AdvanceInputFeautures.js after angular and jquery plugin
     2)Inject advanceInputFeatures as dependency in your angular module
