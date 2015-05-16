@@ -1,0 +1,26 @@
+<select ng-model="selectedCity" ng-options="item for item in citiesList" ng-change="getClimateDetails(selectedCity)" id="selecBox">
+
+</select>
+<div id="climateContainer">
+
+	<br>
+	<div ng-repeat="item in climateDayWise" class="climateDiv "  ng-click="getFullDetails(item)">
+		<p>
+			Day: {{item.day_of_week}}
+		</p>
+		<p>
+			Climatic Condition:{{item.condition}}
+		</p>
+	</div>
+	<div id="results" ng-hide="hideParam">
+		<span id="cancelButton" ng-click="cancelDetails()">X</span><div id="resultData"></div>
+
+		<input tpe="text" ng-model="number" placeholder="enter friend number">
+		</input>
+		<br>
+		<br>
+		<button ng-click="sendMsg(msg,number)">
+			send message to your friend
+		</button>
+	</div>
+</div>

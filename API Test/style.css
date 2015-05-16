@@ -1,0 +1,66 @@
+body {
+
+	background: #00D0BC;
+	color: whitesmoke;
+	/*background: #E59400;
+	 color: white;
+	 */
+}
+.climateDiv {
+	width: 30%;
+	display: inline-block;
+	height: 15%;
+	background-color: #00907C;
+	margin: 12px;
+	text-align: center;
+	padding: 3%;
+}
+#selecBox {
+	border: 1px solid green;
+	width: 126px;
+	margin-left: 25px;
+	border-radius: 5px;
+	height: 39px;
+}
+#climateContainer {
+	width: 100%;
+	height: 100%;
+	margin-top: 7%;
+	text-align: center;
+}
+#results {
+	position: absolute;
+	z-index: 50;
+	top: 15%;
+	background-color: #09c;
+	color: white;
+	width: 77%;
+	left: 10%;
+	height: 78%;
+}
+#results p {
+	text-align: center;
+	color: white
+}
+#results input {
+	text-align: center;
+	color: green;
+	margin-left: 34%;
+}
+#results button {
+	color: #09c;
+	background-color: white;
+	margin-left: 36%;
+	border-radius: 1%;
+}
+#cancelButton {
+	color: black;
+	padding: 10px;
+	position: relative;
+	left: 95%;
+	top: 4px;
+}
+#resultData {
+	color: red;
+}
+
