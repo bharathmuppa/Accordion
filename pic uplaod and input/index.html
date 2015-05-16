@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
+    <script src="inputvalidation.js"></script>
+</head>
+
+<body ng-app="myApp">
+    <input type="text" ng-model="var1" input-validation="onlyNumbers"></input>
+</body>
+<script>
+    angular.module("myApp", ['advanceInputFeatures']);
+</script>
+
+</html>
