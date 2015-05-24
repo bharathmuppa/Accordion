@@ -54,11 +54,11 @@ body {
 	border-radius: 1%;
 }
 #cancelButton {
-	color: black;
-	padding: 10px;
-	position: relative;
-	left: 95%;
-	top: 4px;
+	    color: white;
+    padding: 10px;
+    position: relative;
+    left: 47%;
+    top: 4px;
 }
 #resultData {
 	color: red;
